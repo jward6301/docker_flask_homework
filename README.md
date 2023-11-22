@@ -28,7 +28,7 @@ HHA 504 Week 10 Assignment
 * This assignment was reviewed in class with Professor Williams so no major errors or issues came up that blocked the completion of the assignment. 
 
 ## Docker and Docker Compose
-* The use of Docker allows for the use of one file while docker compose allows for multiple with the use of a `yml` file at the same time.
+* The use of Docker allows for the use of one application in a container. While docker compose allows for multiple files in the container with the use of a `yml` file. If using Docker only for multple, you will have to run it multiple time for each one. Docker compose allows you to run multiple at the same time without having to rerun the commands. 
 * FROM : pull a version of python
 * WORKDIR /app : working directory is set to app 
 * COPY . /app/ :  copies current directory into the container
