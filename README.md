@@ -13,7 +13,7 @@ HHA 504 Week 10 Assignment
 ## Part Two: Multi-Container Setup with Docker Compose
 1. Create a folder named `Part2`
 2. Inside this new folder create two new folders called `Flask1` and `Flask2`
-3. In each Flask folder, create `app.py` files, `Dockerfile` and `requirements.html` files. 
+3. In each Flask folder, create `app.py` files, `Dockerfile` and `requirements.txt` files. 
 4. In the Dockerfiles, copy the code from here: https://github.com/jward6301/docker_flask_homework/blob/main/Part2/flask2/Dockerfile
 5. In each of the folders, create templates folders to host the `about.html` and `base.html` files. 
 6. In the `Part2` folder, create a Docker Compose file named `docker-compose.yml`. You can copy the code from here: https://github.com/jward6301/docker_flask_homework/blob/main/Part2/docker-compose.yml
